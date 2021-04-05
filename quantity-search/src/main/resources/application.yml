@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: quantity-search
+  profiles:
+    active: dev
+
+server:
+  port: 8081
+  servlet:
+    contextPath: /quantity-search
+
+mybatis:
+  mapper-locations:
+    - classpath:dao/*.xml
+    - classpath*:com/**/mapper/*.xml

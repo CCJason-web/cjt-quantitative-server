@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjt.quantity.search.dao.ProductDao">
+  <resultMap id="BaseResultMap" type="com.cjt.quantity.search.domain.Product">
+    <id column="product_id"  property="productId" />
+    <result column="product_name"  property="productName" />
+    <result column="product_type"  property="productType" />
+  </resultMap>
+  <select id="getAllProduct"  resultMap="BaseResultMap">
+    select
+    *
+    from product
+  </select>
+</mapper>
