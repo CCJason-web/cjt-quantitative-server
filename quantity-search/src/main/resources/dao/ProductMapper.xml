@@ -11,4 +11,13 @@
     *
     from product
   </select>
+
+  <select id="getProductsByName"  resultMap="BaseResultMap">
+    select
+    *
+    from product
+    where
+     product_name=#{productName}
+
+  </select>
 </mapper>

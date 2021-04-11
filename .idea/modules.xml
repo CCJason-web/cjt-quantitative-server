@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fsv-back-end.iml" filepath="$PROJECT_DIR$/fsv-back-end.iml" />
       <module fileurl="file://$PROJECT_DIR$/quantity.iml" filepath="$PROJECT_DIR$/quantity.iml" />
       <module fileurl="file://$PROJECT_DIR$/quantity-common/quantity-common.iml" filepath="$PROJECT_DIR$/quantity-common/quantity-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" filepath="$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" />
