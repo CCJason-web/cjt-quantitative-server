@@ -17,7 +17,7 @@
     *
     from product
     where
-     product_name=#{productName}
+     product_name like concat(#{productName},"%")
 
   </select>
 </mapper>

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="quantity-authentication" />
         <module name="quantity-common" />
         <module name="quantity-mbg" />
         <module name="quantity-search" />
@@ -15,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="fsv-back-end" target="1.6" />
       <module name="quantity" target="1.6" />
+      <module name="quantity-authentication" target="1.6" />
       <module name="quantity-common" target="1.6" />
       <module name="quantity-mbg" target="1.6" />
       <module name="quantity-search" target="1.6" />

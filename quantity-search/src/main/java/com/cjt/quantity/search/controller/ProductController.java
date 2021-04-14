@@ -1,7 +1,6 @@
 package com.cjt.quantity.search.controller;
 
 import com.cjt.quantity.search.dao.ProductDao;
-import com.cjt.quantity.search.dao.UserDao;
 import com.cjt.quantity.search.domain.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,8 +14,6 @@ import java.util.List;
 @Controller
 @RequestMapping("/search")
 public class ProductController {
-    @Autowired
-    private UserDao userDao;
     @Autowired
     private ProductDao productDao;
 

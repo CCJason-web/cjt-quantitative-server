@@ -11,6 +11,7 @@
 
     <modules>
         <module>quantity-search</module>
+        <module>quantity-authentication</module>
         <module>quantity-common</module>
         <module>quantity-mbg</module>
         <module>quantity-security</module>
