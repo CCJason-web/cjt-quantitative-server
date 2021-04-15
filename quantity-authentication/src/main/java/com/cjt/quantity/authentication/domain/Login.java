@@ -1,4 +1,4 @@
-package com.cjt.authentication.domain;
+package com.cjt.quantity.authentication.domain;
 
 import lombok.Data;
 

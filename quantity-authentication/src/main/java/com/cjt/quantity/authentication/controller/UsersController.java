@@ -1,8 +1,7 @@
-package com.cjt.authentication.controller;
+package com.cjt.quantity.authentication.controller;
 
-
-import com.cjt.authentication.domain.Users;
-import com.cjt.authentication.service.UserService;
+import com.cjt.quantity.authentication.domain.Users;
+import com.cjt.quantity.authentication.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +18,12 @@ public class UsersController {
     @Autowired
     UserService userService;
 
+
+
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     @ResponseBody
     public Users register(Users users) {
-        users.setId(UUID.randomUUID().toString());
+        users.setId(UUID.randomUUID().toString().substring(0,20));
         int i = userService.registerUsers(users);
         if (i > 0) {
 

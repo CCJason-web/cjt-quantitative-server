@@ -1,9 +1,9 @@
-package com.cjt.authentication.config;
+package com.cjt.quantity.authentication.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan({"com.cjt.authentication.search.dao", "com.cjt.authentication.search.mapper"})
+@MapperScan({"com.cjt.quantity.authentication.dao", "com.cjt.quantity.authentication.mapper"})
 public class MyBatisConfig {
 }
