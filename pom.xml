@@ -51,6 +51,7 @@
         <quantity-security.version>1.0-SNAPSHOT</quantity-security.version>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
+        <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
     </properties>
 
     <dependencies>
@@ -195,6 +196,12 @@
                 <groupId>io.minio</groupId>
                 <artifactId>minio</artifactId>
                 <version>${minio.version}</version>
+            </dependency>
+            <!-- nacos dependency -->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-starter</artifactId>
+                <version>${nacos-config-spring-boot.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
