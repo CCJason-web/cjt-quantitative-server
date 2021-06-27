@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -722,7 +711,7 @@
       <workItem from="1624288326372" duration="679000" />
       <workItem from="1624325784852" duration="455000" />
       <workItem from="1624332634342" duration="405000" />
-      <workItem from="1624549351190" duration="1709000" />
+      <workItem from="1624549351190" duration="2319000" />
     </task>
     <task id="LOCAL-00001" summary="quantity origin">
       <created>1617600540330</created>
@@ -773,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624783208655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add kafka dependency">
+      <created>1624783837806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783837806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120765000" />
+    <option name="totallyTimeSpent" value="121375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="25" width="1920" height="983" extended-state="0" />
