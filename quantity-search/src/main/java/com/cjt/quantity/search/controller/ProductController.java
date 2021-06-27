@@ -1,5 +1,6 @@
 package com.cjt.quantity.search.controller;
 
+import com.alibaba.nacos.api.config.annotation.NacosValue;
 import com.cjt.quantity.search.dao.ProductDao;
 import com.cjt.quantity.search.domain.Product;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,10 @@ import java.util.List;
 @Controller
 @RequestMapping("/search")
 public class ProductController {
+
+    @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
+    private boolean useLocalCache;
+
     @Autowired
     private ProductDao productDao;
 
@@ -28,6 +33,7 @@ public class ProductController {
     @ResponseBody
     public List getProduct() {
         List<Product> allProduct = productDao.getAllProduct();
+        System.out.println(useLocalCache);
         return allProduct;
     }
 

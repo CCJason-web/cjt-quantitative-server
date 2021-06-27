@@ -16,12 +16,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fsv-back-end" target="1.6" />
-      <module name="quantity" target="1.6" />
-      <module name="quantity-authentication" target="1.6" />
-      <module name="quantity-common" target="1.6" />
-      <module name="quantity-mbg" target="1.6" />
-      <module name="quantity-search" target="1.6" />
-      <module name="quantity-security" target="1.6" />
+      <module name="quantity" target="11" />
+      <module name="quantity-authentication" target="11" />
+      <module name="quantity-common" target="11" />
+      <module name="quantity-mbg" target="11" />
+      <module name="quantity-search" target="11" />
+      <module name="quantity-security" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
