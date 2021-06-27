@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_autoconfigure_0_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_config_spring_boot_starter_0_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_boot_nacos_spring_boot_base_0_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_0_2_1_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_0_2_1_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_0_2_1_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_spring_context_0_2_2_RC1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_lgpl_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaComsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-authentication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-authentication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" afterDir="false" />
@@ -37,11 +14,6 @@
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/QuantityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/QuantityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -750,7 +722,7 @@
       <workItem from="1624288326372" duration="679000" />
       <workItem from="1624325784852" duration="455000" />
       <workItem from="1624332634342" duration="405000" />
-      <workItem from="1624549351190" duration="1048000" />
+      <workItem from="1624549351190" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="quantity origin">
       <created>1617600540330</created>
@@ -794,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1621004454882</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add kafka dependency">
+      <created>1624783208655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783208655</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120104000" />
+    <option name="totallyTimeSpent" value="120765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="25" width="1920" height="983" extended-state="0" />
@@ -878,7 +857,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="quantity origin" />
     <MESSAGE value="add Nacos configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Nacos configuration" />
+    <MESSAGE value="Add kafka dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add kafka dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1063,6 +1043,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
