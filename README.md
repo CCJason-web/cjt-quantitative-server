@@ -18,4 +18,4 @@ mvn clean package
 # prerequisite
 1. Project use Lombok plugin, thus no matter what IDE, must install Lombok first.
 2. JDK version must higher than 11, and support kotlin
-3. Intial sql in under the sql folder (not ready)
+3. Intial sql under the sql folder (not ready)
