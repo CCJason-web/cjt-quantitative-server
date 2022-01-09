@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="" />
+    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/CommentGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/mbg/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/com/cjt/quantity/model/UserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/classes/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/quantity-search/target/" />
@@ -33,6 +50,10 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@10.22.10.179" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="mysql@192.168.31.97" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
@@ -43,8 +64,8 @@
       <file leaf-file-name="KafkaProducerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaProducerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,11 +73,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaComsumerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/api/CommonPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/api/ResultCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBatisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/config/MyBatisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quantity-search/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaComsumerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaComsumerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+            <state relative-caret-position="75">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
@@ -185,13 +254,13 @@
         <option value="$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/quantity/authentication/AuthenticationApplication.java" />
         <option value="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/QuantityApplication.java" />
         <option value="$PROJECT_DIR$/quantity-search/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/quantity-search/pom.xml" />
         <option value="$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaTest.java" />
         <option value="$PROJECT_DIR$/quantity-authentication/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaProducerTest.java" />
         <option value="$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaComsumerTest.java" />
+        <option value="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/quantity-search/pom.xml" />
       </list>
     </option>
   </component>
@@ -211,7 +280,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="quantity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="quantity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -219,10 +298,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="25" />
+    <option name="x" value="1720" />
+    <option name="y" value="49" />
     <option name="width" value="1920" />
-    <option name="height" value="983" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -232,13 +311,99 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-common" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
@@ -257,6 +422,82 @@
               <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cjt-quantitative-server" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjt" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cjt-quantitative-server" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +572,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -361,6 +602,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,10 +612,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35287356" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -614,6 +857,12 @@
       <workItem from="1624332634342" duration="405000" />
       <workItem from="1624549351190" duration="2319000" />
       <workItem from="1629734023250" duration="44000" />
+      <workItem from="1629734163179" duration="1363000" />
+      <workItem from="1634979880718" duration="2557000" />
+      <workItem from="1637941619787" duration="953000" />
+      <workItem from="1638682990032" duration="1677000" />
+      <workItem from="1641700389695" duration="609000" />
+      <workItem from="1641702269200" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="quantity origin">
       <created>1617600540330</created>
@@ -682,18 +931,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121419000" />
+    <option name="totallyTimeSpent" value="129113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="25" width="1920" height="983" extended-state="0" />
+    <frame x="1720" y="49" width="1920" height="1055" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159746" side_tool="true" weight="0.3273632" />
-      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.6875" visible="true" weight="0.26091588" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.6875" weight="0.2991453" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.4988662" weight="0.35516506" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.4988662" visible="true" weight="0.30937168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -704,12 +954,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2679201" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49893504" weight="0.3277311" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35518473" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" weight="0.42782152" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1773163" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18796591" />
       <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="8" />
       <window_info anchor="right" id="SciView" order="11" weight="0.32960597" />
@@ -718,7 +969,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="12" sideWeight="0.3125" side_tool="true" visible="true" weight="0.26091588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="7" visible="true" weight="0.2985782" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32321042" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912844" />
@@ -784,13 +1035,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quantity-mbg/src/main/java/com/cjt/quantity/model/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/org/springframework/validation/annotation/Validated.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -806,13 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/config/MyBatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantity-mbg/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -821,13 +1058,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quantity-common/HELP.md" />
-    <entry file="file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/api/CommonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantity-authentication/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/authentication/dao/ProductDao.java" />
     <entry file="file://$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/authentication/domain/Product.java" />
@@ -1003,16 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="61" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantity-authentication/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1025,13 +1245,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quantity.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quantity-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1061,25 +1274,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaComsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaProducerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="240">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantity-search/src/test/java/com/cjt/quantity/search/KafkaComsumerTest.java">
+    <entry file="file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/api/CommonPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/api/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/config/MyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1409,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>quantity-authentication</last-edited>
+          <last-edited>quantity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
