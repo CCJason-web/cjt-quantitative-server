@@ -7,21 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="quantity-authentication" />
-        <module name="quantity-common" />
-        <module name="quantity-mbg" />
-        <module name="quantity-search" />
         <module name="quantity-security" />
+        <module name="quantity-authentication" />
+        <module name="quantity-mbg" />
+        <module name="quantity-batch" />
+        <module name="quantity-common" />
+        <module name="quantity-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fsv-back-end" target="1.6" />
-      <module name="quantity" target="11" />
-      <module name="quantity-authentication" target="11" />
-      <module name="quantity-common" target="11" />
-      <module name="quantity-mbg" target="11" />
-      <module name="quantity-search" target="11" />
-      <module name="quantity-security" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="quantity-authentication" options="-parameters" />
+      <module name="quantity-batch" options="-parameters" />
+      <module name="quantity-common" options="-parameters" />
+      <module name="quantity-mbg" options="-parameters" />
+      <module name="quantity-search" options="-parameters" />
+      <module name="quantity-security" options="-parameters" />
+    </option>
   </component>
 </project>

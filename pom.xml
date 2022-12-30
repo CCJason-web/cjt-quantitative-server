@@ -15,6 +15,7 @@
         <module>quantity-common</module>
         <module>quantity-mbg</module>
         <module>quantity-security</module>
+        <module>quantity-batch</module>
     </modules>
 
     <parent>
