@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-batch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/ThreadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="Add Common module">
+      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TestClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TwoNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/quantity-mbg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/ThreadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/ThreadUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-search/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,18 +495,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "proofread"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.cjt.quantity.common" />
@@ -540,7 +532,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuantityApplication">
+  <component name="RunManager" selected="Application.TestClassLoader">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="quantity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -559,20 +551,6 @@
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjt.quantity.mbg.Generator" />
-      <module name="quantity-mbg" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cjt.quantity.mbg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="KafkaProducerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cjt.quantity.search.KafkaProducerTest" />
@@ -602,13 +580,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cjt.jetty.StartServer" />
-      <module name="fsv-back-end" />
+    <configuration name="TestClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjt.quantity.common.classloader.TestClassLoader" />
+      <module name="quantity-common" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cjt.jetty.*" />
+          <option name="PATTERN" value="com.cjt.quantity.common.classloader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjt.quantity.common.utils.ThreadUtils" />
+      <module name="quantity-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjt.quantity.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjt.quantity.common.classloader.TwoNum" />
+      <module name="quantity-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjt.quantity.common.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -628,32 +634,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="quantity [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="install" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="quantity-authentication" />
@@ -681,19 +661,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestClassLoader" />
+      <item itemvalue="Application.ThreadUtils" />
+      <item itemvalue="Application.TwoNum" />
       <item itemvalue="Application.QuantityApplication" />
-      <item itemvalue="Application.StartServer" />
-      <item itemvalue="Application.Generator" />
       <item itemvalue="Application.KafkaProducerTest" />
-      <item itemvalue="Maven.quantity [clean,install]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClassLoader" />
+        <item itemvalue="Application.TwoNum" />
         <item itemvalue="Application.QuantityApplication" />
+        <item itemvalue="Application.ThreadUtils" />
         <item itemvalue="Application.KafkaProducerTest" />
-        <item itemvalue="Application.Generator" />
-        <item itemvalue="Maven.quantity [clean,install]" />
-        <item itemvalue="Application.StartServer" />
       </list>
     </recent_temporary>
   </component>
@@ -815,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629734042761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Common module">
+      <created>1672367645007</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672367645007</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -883,7 +870,8 @@
     <MESSAGE value="quantity origin" />
     <MESSAGE value="add Nacos configuration" />
     <MESSAGE value="Add kafka dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add kafka dependency" />
+    <MESSAGE value="Add Common module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Common module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,6 +880,16 @@
           <url>file://$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/quantity/authentication/controller/UsersController.java</url>
           <line>25</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>780</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TwoNum.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
