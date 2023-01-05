@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="Add Common module">
-      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TestClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TwoNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts" afterDir="false" />
+    <list default="true" id="c30aa32d-5108-41de-81cf-7b38c0de3106" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/ThreadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/utils/ThreadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-mbg/target/quantity-mbg-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/QuantityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/QuantityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/controller/EsProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quantity-search/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quantity-search/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts" beforeDir="false" afterPath="$PROJECT_DIR$/scripts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +96,18 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar!/org/apache/catalina/startup/Bootstrap.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/SpringApplication.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -495,19 +516,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quantity-authentication/src/main/resources" />
+      <recent name="$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/authentication" />
+      <recent name="$PROJECT_DIR$/quantity-search/src/main/resources/dao" />
+      <recent name="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/dao" />
+      <recent name="$PROJECT_DIR$/quantity-mbg/target/classes" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.cjt.quantity.common" />
       <recent name="com.cjt.quantity.search" />
@@ -517,13 +545,6 @@
       <recent name="com.cjt.quantity.search.dao" />
       <recent name="com.cjt.quantity.search.controller.api" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/quantity-authentication/src/main/resources" />
-      <recent name="$PROJECT_DIR$/quantity-authentication/src/main/java/com/cjt/authentication" />
-      <recent name="$PROJECT_DIR$/quantity-search/src/main/resources/dao" />
-      <recent name="$PROJECT_DIR$/quantity-search/src/main/java/com/cjt/quantity/search/dao" />
-      <recent name="$PROJECT_DIR$/quantity-mbg/target/classes" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -532,7 +553,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClassLoader">
+  <component name="RunManager" selected="Application.QuantityApplication">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="quantity" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -669,9 +690,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuantityApplication" />
         <item itemvalue="Application.TestClassLoader" />
         <item itemvalue="Application.TwoNum" />
-        <item itemvalue="Application.QuantityApplication" />
         <item itemvalue="Application.ThreadUtils" />
         <item itemvalue="Application.KafkaProducerTest" />
       </list>
@@ -802,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672367645007</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Scripts">
+      <created>1672666041737</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672666041737</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -871,7 +899,8 @@
     <MESSAGE value="add Nacos configuration" />
     <MESSAGE value="Add kafka dependency" />
     <MESSAGE value="Add Common module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Common module" />
+    <MESSAGE value="Added Scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,17 +911,16 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
-          <line>780</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/quantity-common/src/main/java/com/cjt/quantity/common/classloader/TwoNum.java</url>
           <line>6</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/org/springframework/validation/annotation/Validated.class">
