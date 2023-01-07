@@ -1,16 +1,16 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/quantity?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://localhost:3306/quantity?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 12345678
     druid:
       initial-size: 5 # Connection pool initial size
-      min-idle: 10 # Minimum idle connection
-      max-active: 20 # Maximum connection
+      min-idle: 10 # Minimum idle connection, will close surplus connections
+      max-active: 20 # Maximum connection TODO need to have performance test
       web-stat-filter:
         exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" # Don't count these request data
       stat-view-servlet: # Visit inspect login user and password
-        login-username: druid
+        login-username: druid  # Setup login username TODO Pending to certify
         login-password: druid
   data:
     elasticsearch:
